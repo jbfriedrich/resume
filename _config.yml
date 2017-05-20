@@ -1,0 +1,35 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+#permalink: :title.html
+#paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://jason.friedrich.uk
+author: Jason Friedrich
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Jason's Resume
+name: Jason Friedrich
+#email: contact@friedrich.uk
+#email_full: mailto:friedrich.uk
+website: http://friedrich.uk
+website_full: http://friedrich.uk
+github: jbfriedrich
+twitter: jbfriedrich
+#tel: +44 0000 000000
+#tel_full: tel:+440000000000
+google_maps: 'https://www.google.com/maps/place/Bochum,Germany'
+#address: 44 Perth Street
+#postcode: EH3 5BL
+city: Bochum,
+country: Germany
+#google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
