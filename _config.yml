@@ -7,7 +7,7 @@ rdiscount:
 gems: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://jason.friedrich.uk
+url: http://friedrich.uk
 author: Jason Friedrich
 
 # edit this section with your information
